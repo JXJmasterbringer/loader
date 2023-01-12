@@ -1,0 +1,71 @@
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Wellcome";
+	Text = "Put The PassWord On TextBox then click on login";
+	Duration = 5;
+	})
+local Main = Instance.new("ScreenGui")
+local LoginFrame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
+local Login = Instance.new("TextButton")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.CoreGui
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = Main
+LoginFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoginFrame.Position = UDim2.new(0.258291453, 0, 0.234006733, 0)
+LoginFrame.Size = UDim2.new(0, 504, 0, 386)
+
+ImageLabel.Parent = LoginFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(-0.00175282313, 0, -0.00175325864, 0)
+ImageLabel.Size = UDim2.new(0, 504, 0, 386)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=10016088547"
+
+TextBox.Parent = LoginFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.319444418, 0, 0.582901597, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+
+Login.Name = "Login"
+Login.Parent = LoginFrame
+Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Login.Position = UDim2.new(0.319444448, 0, 0.849740922, 0)
+Login.Size = UDim2.new(0, 200, 0, 50)
+Login.Font = Enum.Font.SourceSans
+Login.Text = "Login"
+Login.TextColor3 = Color3.fromRGB(0, 0, 0)
+Login.TextSize = 14.000
+Login.MouseButton1Down:connect(function()
+	if TextBox.Text == "Adamantiun-VHFRJH5-FJTFCH" then game.StarterGui:SetCore("SendNotification", {
+		Title = "Checking Ur Whitelist";
+		Text = "....";
+		Duration = 2;
+		})
+		
+	wait(3)  loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/hjgtytg4bfbht/main/SCRIPTGRATIS",true))()
+	LoginFrame.Visible = false
+end
+
+else
+
+	game.StarterGui:SetCore("SendNotification", {Title = "Checking Ur Whitelist";
+	Text = "....";
+	Duration = 2;
+	})
+	wait(3)
+
+	game.StarterGui:SetCore("SendNotification", {Title = "Wrong Key pls put an valid key bellow";
+		Text = "";
+		Duration = 3;
+		})
+end
+end)
