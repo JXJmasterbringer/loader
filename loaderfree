@@ -52,7 +52,7 @@ Login.MouseButton1Down:connect(function()
 		Duration = 3;
 		})
 		
-	wait(3)  loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/NADAPARAVER",true))()
+	wait(3)  loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/hjgtytg4bfbht/main/FREE",true))()
 	LoginFrame.Visible = false
 end
 
