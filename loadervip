@@ -41,7 +41,7 @@ Check.MouseButton1Down:connect(function()
 		})
 		
 	wait(3)  loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/page3/main/Misc",true))()
-	LoginFrame.Visible = false
+	Frame.Visible = false
 
 else
 
