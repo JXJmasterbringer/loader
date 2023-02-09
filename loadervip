@@ -55,6 +55,9 @@ else
 		Text = ">:v gay";
 		Duration = 4;
 		})
+		wait(4)
+		game.Players.LocalPlayer:Kick('no...')
+	
 end
 end)
 
