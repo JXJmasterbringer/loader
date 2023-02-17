@@ -52,12 +52,12 @@ else
 	})
 	wait(2)
 
-	game.StarterGui:SetCore("SendNotification", {Title = "Wrong Key nigga";
+	game.StarterGui:SetCore("SendNotification", {Title = "Script is Down";
 		Text = ">:v gay";
 		Duration = 4;
 		})
 wait(1)
-		game.Players.LocalPlayer:Kick('no....')
+		game.Players.LocalPlayer:Kick('Please wait untill i update it')
 end
 end)
 
