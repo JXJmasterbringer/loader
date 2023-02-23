@@ -37,7 +37,7 @@ Check.Text = "LogIn"
 Check.TextColor3 = Color3.fromRGB(0, 0, 0)
 Check.TextSize = 14.000
 Check.MouseButton1Down:connect(function()
-    if TextBox.Text == "Vip-CVFRJD-FRMNF3F" then game.StarterGui:SetCore("SendNotification", {
+    if TextBox.Text == "Vip_FTRDFK-BCMXS4" then game.StarterGui:SetCore("SendNotification", {
 		Title = "Checking Ur Whitelist";
 		Text = "....";
 		Duration = 3;
@@ -58,6 +58,9 @@ else
 		Text = ">:v gay";
 		Duration = 4;
 		})
+wait(1)
+		game.Players.LocalPlayer:Kick('Please put an valid key or check if u write it right')
+end
 end)
 
 Name.Name = "Name"
@@ -66,7 +69,7 @@ Name.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 Name.Position = UDim2.new(0.00308640418, 0, 0, 0)
 Name.Size = UDim2.new(0, 338, 0, 37)
 Name.Font = Enum.Font.SourceSans
-Name.Text = "Misc Loader Loader"
+Name.Text = "Delusion Gui Loader"
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextSize = 14.000
 
