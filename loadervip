@@ -58,9 +58,6 @@ else
 		Text = ">:v gay";
 		Duration = 4;
 		})
-wait(1)
-		game.Players.LocalPlayer:Kick('Please put an valid key or check if u write it right')
-end
 end)
 
 Name.Name = "Name"
