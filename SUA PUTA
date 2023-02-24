@@ -14,6 +14,7 @@ Frame.BorderColor3 = Color3.fromRGB(77, 79, 80)
 Frame.Position = UDim2.new(0.361498266, 0, 0.455163062, 0)
 Frame.Size = UDim2.new(0, 340, 0, 109)
 Frame.Visible = true
+Frame.Draggable = true
 
 
 TextBox.Parent = Frame
