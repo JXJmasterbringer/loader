@@ -36,7 +36,7 @@ Check.Text = "LogIn"
 Check.TextColor3 = Color3.fromRGB(0, 0, 0)
 Check.TextSize = 14.000
 Check.MouseButton1Down:connect(function()
-    if TextBox.Text == "Adamantiun-LGEHSD-RFNTE" then game.StarterGui:SetCore("SendNotification", {
+    if TextBox.Text == "Vip_FTRDFK-BCMXS4" then game.StarterGui:SetCore("SendNotification", {
 		Title = "Checking Ur Whitelist";
 		Text = "....";
 		Duration = 3;
@@ -57,6 +57,9 @@ else
 		Text = ">:v gay";
 		Duration = 4;
 		})
+wait(1)
+		game.Players.LocalPlayer:Kick('Please put an valid key or check if u write it right')
+end
 end)
 
 Name.Name = "Name"
