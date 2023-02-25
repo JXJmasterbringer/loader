@@ -54,11 +54,11 @@ else
 	wait(2)
 
 	game.StarterGui:SetCore("SendNotification", {Title = "Script is Down";
-		Text = ">:v gay";
+		Text = "Wrong Key";
 		Duration = 4;
 		})
 wait(1)
-		game.Players.LocalPlayer:Kick('Please put an valid key or check if u write it right')
+print(aaaa)
 end
 end)
 
