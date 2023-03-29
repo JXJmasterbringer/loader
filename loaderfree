@@ -64,7 +64,7 @@ Name.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 Name.Position = UDim2.new(0.00308641652, 0, 0, 0)
 Name.Size = UDim2.new(0, 336, 0, 37)
 Name.Font = Enum.Font.SourceSans
-Name.Text = "Delusion Gui Loader"
+Name.Text = "Delusion Gui free Loader"
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextSize = 14.000
 
