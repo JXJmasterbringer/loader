@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick("Sync")
+game.Players.LocalPlayer:Kick("Sync: NotComplete...")
