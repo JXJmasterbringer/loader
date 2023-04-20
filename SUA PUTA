@@ -40,7 +40,7 @@ Check.MouseButton1Down:connect(function()
 		Duration = 3;
 		})
 		
-	wait(3)  loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/MainScript",true))()
+	wait(3)  loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago",true))()
 Frame.Visible = false	loadstring(game:HttpGet("https://adamantiunclouds.netlify.app"))()
 	
 	
