@@ -40,8 +40,9 @@ Check.MouseButton1Down:connect(function()
 		Duration = 3;
 		})
 		
+		Frame.Visible = false
 	wait(3)  loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago.lua",true))()
-Frame.Visible = false
+
 	
 	
 else
