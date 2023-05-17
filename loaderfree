@@ -1,14 +1,10 @@
---[[ you might get aids looking to this fuckshit called "whitelist" bros prolly watched a youtube video and learned how to make it in the worst way. 
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Put Ur Password at textbox ";
+	Text = "if u don't have one join on my discord server to get the password";
+	Duration = 3;
+	})
+	
 
--- this 12yr obese skid still using Gui Converter (Revamped) in 2022 and calls himself a "scripter/developer" LMAOOO
-ps: GayChopex still a faggot
-
--- Gui to Lua "Gui to Lua" 
--- Version: 3.2
-
--- Instances:
-
---]]
 local ScreenGui = Instance.new("ScreenGui")
 local keysystem = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -325,7 +321,7 @@ local function XOESE_fake_script() -- usekey.LocalScript
 	
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Key.Text == "vyV3Qk4KN%Qh3Xmn" then 
+		if script.Parent.Parent.Key.Text == "Free-vyV3Qk4KN%Qh3Xmn" then 
 			script.Parent.Parent.title.Text = "Ninja Assasin Gui| (Whitelisted)"
 			script.Parent.Parent.topbar.BackgroundColor3 = Color3.new(0.141176, 0.541176, 0.0941176)
 			script.Parent.Parent.close.BackgroundColor3 = Color3.new(0.141176, 0.541176, 0.0941176)
@@ -429,6 +425,13 @@ local function DDOGY_fake_script() -- getkey.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://www.roblox.com/game-pass/24836694/donate")
+
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Gamepass link copyed";
+			Text = "now u can paste the gamepass link";
+			Duration = 5;
+			})
+			
 		script.Parent.Parent.title.Text = "Ninja Assasin Gui| (gamepass Link Copied)";
 			wait(3)
 			script.Parent.Parent.title.Text = "Ninja Assasin Gui| Loader free";
