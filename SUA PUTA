@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Put Ur Password at textbox ";
-	Text = "if u don't have one join on my discord server to get the password";
+	Text = "thank you for buying it nigga <3";
 	Duration = 3;
 	})
 	
@@ -318,7 +318,7 @@ local function XOESE_fake_script() -- usekey.LocalScript
 			wait(2)
 			script.Parent.Parent.Visible = false
 			makefolder("User")
-			writefile("adamantiun.cloud", "Loader - 8hn6TUoI94ID9uf8")
+			writefile("adamantiun.cloud", "LoaderP - Adamantiunzrj4d5r5e4%565")
 
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago.lua", true))()
 		else
