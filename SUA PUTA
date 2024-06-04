@@ -6,7 +6,7 @@ local TextButton = Instance.new("TextButton")
 local TextBox = Instance.new("TextBox")
 local TextLabel = Instance.new("TextLabel")
 
-local Password = "AE%33MT300"
+local Password = "AGxB4WD%P"
 --Properties:
 
 Login.Name = "Login"
