@@ -1,13 +1,15 @@
+-- Gui to Lua
+-- Version: 3.2
 
+-- Instances:
 
 local Login = Instance.new("ScreenGui")
 local LoginFrame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local TextBox = Instance.new("TextBox")
 local TextLabel = Instance.new("TextLabel")
-
-local Password = "AGxB4WD%P"
---Properties:
+local Close = Instance.new("TextButton")
+local Password = "AE%JZB355"
 
 Login.Name = "Login"
 Login.Parent = game.CoreGui
@@ -17,9 +19,9 @@ LoginFrame.Parent = Login
 LoginFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 LoginFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 LoginFrame.BorderSizePixel = 0
-LoginFrame.Position = UDim2.new(0.36637643, 0, 0.441687346, 0)
+LoginFrame.Position = UDim2.new(0.378504992, 0, 0.441687346, 0)
 LoginFrame.Size = UDim2.new(0, 399, 0, 146)
-LoginFrame.Visible = true
+LoginFrame.ZIndex = 0
 
 TextButton.Parent = LoginFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
@@ -32,25 +34,43 @@ TextButton.Text = "Login"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
-  if TextBox.Text == Password then 
-
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Tesla Gui";
-		Text = "Correct Password";
-		Duration = 7;
+	if TextBox.Text == Password then 
+		
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Tesla Gui";
+			Text = "checking Password";
+			Duration = 0.50;
 		})
-wait(2)
-	LoginFrame.Visible = false 
+		wait(2)
 
-wait(4)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago.lua",true))()
-    else
-        game.StarterGui:SetCore("SendNotification", {
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Tesla Gui";
+			Text = "checking UserId";
+			Duration = 0.50;
+		})
+		wait(2)
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Tesla Gui";
+			Text = "checking Version";
+			Duration = 0.50;
+		})
+		wait(2)
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Tesla Gui";
+			Text = "Loading The Script";
+			Duration = 1;
+		})
+wait(1)
+LoginFrame.Visible = false
+
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago.lua",true))()
+	else
+		game.StarterGui:SetCore("SendNotification", {
 			Title = "Tesla Gui";
 			Text = "Wrong Password";
 			Duration = 7;
-			})
-    end
+		})
+	end
 end)
 
 TextBox.Parent = LoginFrame
@@ -59,8 +79,8 @@ TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(0.248120308, 0, 0.39041096, 0)
 TextBox.Size = UDim2.new(0, 200, 0, 32)
-TextBox.Font = Enum.Font.SourceSans
-TextBox.Text = "Key Here"
+TextBox.Font = Enum.Font.Jura
+TextBox.Text = "key Here"
 TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox.TextSize = 14.000
 
@@ -70,7 +90,22 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.248120308, 0, 0.0753424689, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 36)
-TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Font = Enum.Font.FredokaOne
 TextLabel.Text = "Tesla Gui V2"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextColor3 = Color3.fromRGB(203, 34, 200)
 TextLabel.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = LoginFrame
+Close.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.9248119, 0, 0, 0)
+Close.Size = UDim2.new(0, 30, 0, 31)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(198, 5, 25)
+Close.TextSize = 28.000
+Close.MouseButton1Down:connect(function()
+LoginFrame.Visible = false	
+end)
