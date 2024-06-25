@@ -36,8 +36,6 @@ TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
 	if TextBox.Text == Password then 
 
-		LoginFrame.Visible = false
-
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Tesla Gui";
 			Text = "checking Password";
@@ -63,6 +61,7 @@ TextButton.MouseButton1Down:connect(function()
 			Duration = 1;
 		})
 wait(1)
+		LoginFrame.Visible = false
 
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/beta",true))()
 
