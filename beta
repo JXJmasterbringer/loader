@@ -9,7 +9,7 @@ local TextButton = Instance.new("TextButton")
 local TextBox = Instance.new("TextBox")
 local TextLabel = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
-local Password = "AE%B523G2"
+local Password = "AE%J4E2B"
 
 Login.Name = "Login"
 Login.Parent = game.CoreGui
