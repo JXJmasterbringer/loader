@@ -67,7 +67,7 @@ end
 if(game.PlaceId == 823323202) then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/beta%20ninja%20assassin",true))()
 else 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/lbb",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/universal",true))()
 
 end
 	else
