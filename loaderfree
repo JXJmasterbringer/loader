@@ -56,7 +56,7 @@ TextButton.MouseButton1Down:connect(function()
 wait(1)
 LoginFrame.Visible = false
 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/hjgtytg4bfbht/main/FREE",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AdamantiunGG/NinjaAssasinMainScript/main/free",true))()
 	else
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Tesla Gui";
