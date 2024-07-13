@@ -34,26 +34,26 @@ TextButton.MouseButton1Down:connect(function()
 	if TextBox.Text == Password then 
 
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Tesla Gui";
+			Title = "Ilusion";
 			Text = "checking Password";
 			Duration = 0.50;
 		})
 		wait(2)
 
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Tesla Gui";
+			Title = "Ilusion";
 			Text = "checking UserId";
 			Duration = 0.50;
 		})
 		wait(2)
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Tesla Gui";
+			Title = "Ilusion";
 			Text = "checking Version";
 			Duration = 0.50;
 		})
 		wait(2)
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Tesla Gui";
+			Title = "Ilusion";
 			Text = "Loading The Script";
 			Duration = 1;
 		})
@@ -72,7 +72,7 @@ else
 end
 	else
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Tesla Gui";
+			Title = "Ilusion";
 			Text = "Wrong Password";
 			Duration = 7;
 		})
@@ -97,7 +97,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.248120308, 0, 0.0753424689, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 36)
 TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "Tesla Gui V2"
+TextLabel.Text = "Ilusion Loader"
 TextLabel.TextColor3 = Color3.fromRGB(203, 34, 200)
 TextLabel.TextSize = 14.000
 
