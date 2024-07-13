@@ -1,7 +1,4 @@
--- Gui to Lua
--- Version: 3.2
 
--- Instances:
 
 local Login = Instance.new("ScreenGui")
 local LoginFrame = Instance.new("Frame")
@@ -35,7 +32,7 @@ TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
 	if TextBox.Text == Password then 
-		
+
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Tesla Gui";
 			Text = "checking Password";
@@ -61,9 +58,15 @@ TextButton.MouseButton1Down:connect(function()
 			Duration = 1;
 		})
 wait(1)
-LoginFrame.Visible = false
+		LoginFrame.Visible = false
+if(game.PlaceId == 662417684) then
+		loadstring(game:HttpGet(https://raw.githubusercontent.com/JXJmasterbringer/pago/main/luckyblock",true))()
 
+
+end
+if(game.PlaceId == 823323202) then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago.lua",true))()
+
 	else
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Tesla Gui";
