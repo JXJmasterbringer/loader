@@ -8,6 +8,7 @@ local TextBox = Instance.new("TextBox")
 local TextLabel = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
 local Password = "AE%J4E2B"
+_G.Universal = true
 
 Login.Name = "Login"
 Login.Parent = game.CoreGui
@@ -32,7 +33,7 @@ TextButton.Text = "Login"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
-	if TextBox.Text == Password then 
+		if TextBox.Text == Password then 
 
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Ilusion";
@@ -58,19 +59,22 @@ TextButton.MouseButton1Down:connect(function()
 			Text = "Loading The Script";
 			Duration = 1;
 		})
-wait(1)
+
 		LoginFrame.Visible = false
 if(game.PlaceId == 662417684) then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/lbb",true))()
-
+        _G.Universal = false
 
 end
 if(game.PlaceId == 823323202) then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/beta%20ninja%20assassin",true))()
-else 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/universal",true))()
-
+        _G.Universal = false
 end
+wait(4)
+if _G.Universal == true then 
+    print("universal coming soon")
+end
+
 	else
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Ilusion";
@@ -79,6 +83,7 @@ end
 		})
 	end
 end)
+
 
 TextBox.Parent = LoginFrame
 TextBox.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
