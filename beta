@@ -122,3 +122,27 @@ Close.TextSize = 28.000
 Close.MouseButton1Down:connect(function()
 LoginFrame.Visible = false	
 end)
+
+if _G.Sky == true then 
+
+Sky = Instance.new("Sky", game.Lighting)
+a = "http://www.roblox.com/asset/?id=149397684"
+b = "http://www.roblox.com/asset/?id=149397692"
+c = "http://www.roblox.com/asset/?id=149397686"
+d = "http://www.roblox.com/asset/?id=149397697"
+e = "http://www.roblox.com/asset/?id=149397688"
+f = "http://www.roblox.com/asset/?id=149397702"
+
+
+Sky.SkyboxBk = a 
+    Sky.SkyboxDn = b
+         Sky.SkyboxFt = c 
+             Sky.SkyboxLf = d
+                  Sky.SkyboxRt = e
+                       Sky.SkyboxUp = f
+
+                            Sky.SkyboxBk = imageEight
+                                Sky.SkyboxDn = imageEight
+                                     Sky.SkyboxFt = imageEight
+                                          Sky.SkyboxLf = imageEight    
+end
