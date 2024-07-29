@@ -1,5 +1,5 @@
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/Status.lua",true))()
-wait(2)
+wait()
 
 local Login = Instance.new("ScreenGui")
 local LoginFrame = Instance.new("Frame")
@@ -8,6 +8,7 @@ local TextBox = Instance.new("TextBox")
 local TextLabel = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
 local Password = "AGxB4WD%5"
+_G.Universal = true
 
 Login.Name = "Login"
 Login.Parent = game.CoreGui
@@ -32,7 +33,7 @@ TextButton.Text = "Login"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
-	if TextBox.Text == Password then 
+		if TextBox.Text == Password then 
 
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Ilusion";
@@ -58,26 +59,32 @@ TextButton.MouseButton1Down:connect(function()
 			Text = "Loading The Script";
 			Duration = 1;
 		})
-		wait(1)
+
 		LoginFrame.Visible = false
-		if(game.PlaceId == 662417684) then
+if(game.PlaceId == 662417684) then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/luckyblock",true))()
+        _G.Universal = false
 
+end
+if(game.PlaceId == 823323202) then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago.lua",true))()
+        _G.Universal = false
+end
+wait(4)
+if _G.Universal == true then 
+   	loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/universal",true))()
 
-		end
-		if(game.PlaceId == 823323202) then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/pago/main/ScriptPago.lua",true))()
+end
 
-		else
-			game.StarterGui:SetCore("SendNotification", {
-				Title = "Ilusion ";
-				Text = "Wrong Password";
-				Duration = 7;
-			})
-		end
+	else
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Ilusion";
+			Text = "Wrong Password";
+			Duration = 7;
+		})
 	end
-	
-	end)
+end)
+
 
 TextBox.Parent = LoginFrame
 TextBox.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
@@ -113,5 +120,29 @@ Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(198, 5, 25)
 Close.TextSize = 28.000
 Close.MouseButton1Down:connect(function()
-	LoginFrame.Visible = false	
+LoginFrame.Visible = false	
 end)
+
+if _G.Sky == true then 
+
+Sky = Instance.new("Sky", game.Lighting)
+a = "http://www.roblox.com/asset/?id=149397684"
+b = "http://www.roblox.com/asset/?id=149397692"
+c = "http://www.roblox.com/asset/?id=149397686"
+d = "http://www.roblox.com/asset/?id=149397697"
+e = "http://www.roblox.com/asset/?id=149397688"
+f = "http://www.roblox.com/asset/?id=149397702"
+
+
+Sky.SkyboxBk = a 
+    Sky.SkyboxDn = b
+         Sky.SkyboxFt = c 
+             Sky.SkyboxLf = d
+                  Sky.SkyboxRt = e
+                       Sky.SkyboxUp = f
+
+                            Sky.SkyboxBk = imageEight
+                                Sky.SkyboxDn = imageEight
+                                     Sky.SkyboxFt = imageEight
+                                          Sky.SkyboxLf = imageEight    
+end
