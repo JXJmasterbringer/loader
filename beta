@@ -34,8 +34,12 @@ TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
 		if TextBox.Text == Password then 
+        		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/blacklist",true))()
 
-		game.StarterGui:SetCore("SendNotification", {
+writefile("ilusion", "AE%J4E2B")
+wait()
+
+game.StarterGui:SetCore("SendNotification", {
 			Title = "Ilusion";
 			Text = "checking Password";
 			Duration = 0.50;
@@ -75,14 +79,8 @@ if _G.Universal == true then
    	loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/universal",true))()
 
 end
-
-	else
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Ilusion";
-			Text = "Wrong Password";
-			Duration = 7;
-		})
-	end
+end
+		
 end)
 
 
@@ -146,3 +144,29 @@ Sky.SkyboxBk = a
                                      Sky.SkyboxFt = imageEight
                                           Sky.SkyboxLf = imageEight    
 end
+
+
+local function LFKJCS_fake_script() -- NinjaGui.Script 
+	local script = Instance.new('Script', LuckyBlockGui)
+if isfile("ilusion", "AE%J4E2B")
+then 
+
+		LoginFrame.Visible = false
+
+if(game.PlaceId == 662417684) then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/lbb",true))()
+        _G.Universal = false
+
+end
+if(game.PlaceId == 823323202) then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/beta%20ninja%20assassin",true))()
+        _G.Universal = false
+end
+wait(4)
+if _G.Universal == true then 
+   	loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/universal",true))()
+
+end
+end
+end
+    coroutine.wrap(LFKJCS_fake_script)()
