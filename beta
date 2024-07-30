@@ -3,6 +3,8 @@
 
 wait()
 
+_G.Sky = true
+
 local Login = Instance.new("ScreenGui")
 local LoginFrame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
@@ -38,7 +40,7 @@ TextButton.MouseButton1Down:connect(function()
 		if TextBox.Text == Password then 
         		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/blacklist",true))()
 
-writefile("ilusion", "AE%J4E2B")
+writefile("ilusion", "ass")
 wait()
 
 game.StarterGui:SetCore("SendNotification", {
@@ -123,6 +125,32 @@ Close.MouseButton1Down:connect(function()
 LoginFrame.Visible = false	
 end)
 
+
+local function LFKJCS_fake_script() -- NinjaGui.Script 
+	local script = Instance.new('Script', LuckyBlockGui)
+if isfile("ilusion", "ass")
+then
+
+		LoginFrame.Visible = false
+
+if(game.PlaceId == 662417684) then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/lbb",true))()
+        _G.Universal = false
+
+end
+if(game.PlaceId == 823323202) then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/beta%20ninja%20assassin",true))()
+        _G.Universal = false
+end
+wait(4)
+if _G.Universal == true then 
+   	loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/universal",true))()
+
+end
+end
+end
+    coroutine.wrap(LFKJCS_fake_script)()
+
 if _G.Sky == true then 
 
 Sky = Instance.new("Sky", game.Lighting)
@@ -146,29 +174,3 @@ Sky.SkyboxBk = a
                                      Sky.SkyboxFt = imageEight
                                           Sky.SkyboxLf = imageEight    
 end
-
-
-local function LFKJCS_fake_script() -- NinjaGui.Script 
-	local script = Instance.new('Script', LuckyBlockGui)
-if isfile("ilusion", "AE%J4E2B")
-then 
-
-		LoginFrame.Visible = false
-
-if(game.PlaceId == 662417684) then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/lbb",true))()
-        _G.Universal = false
-
-end
-if(game.PlaceId == 823323202) then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/beta%20ninja%20assassin",true))()
-        _G.Universal = false
-end
-wait(4)
-if _G.Universal == true then 
-   	loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/universal",true))()
-
-end
-end
-end
-    coroutine.wrap(LFKJCS_fake_script)()
