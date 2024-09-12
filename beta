@@ -1,5 +1,7 @@
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/cloud",true))()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/blacklist",true))()
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/JXJmasterbringer/beta/main/betahook'),true))()
+
 wait()
 
 _G.Sky = true
