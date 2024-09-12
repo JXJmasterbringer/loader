@@ -39,7 +39,7 @@ TextButton.MouseButton1Down:connect(function()
 		if TextBox.Text == Password then 
         		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/blacklist",true))()
 
-writefile("AEBNTW2", "whitelisted")
+writefile("AEV2PH", "whitelisted")
 wait()
 
 game.StarterGui:SetCore("SendNotification", {
@@ -127,7 +127,7 @@ end)
 
 local function LFKJCS_fake_script() -- NinjaGui.Script 
 	local script = Instance.new('Script', LuckyBlockGui)
-if isfile("AEBNTW2", "whitelisted")
+if isfile("AEV2PH", "whitelisted")
 then
 
 		LoginFrame.Visible = false
