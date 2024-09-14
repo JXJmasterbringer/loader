@@ -52,19 +52,19 @@ game.StarterGui:SetCore("SendNotification", {
 		wait(2)
 
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Ilusion";
+			Title = "Illusion";
 			Text = "checking UserId";
 			Duration = 0.50;
 		})
 		wait(2)
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Ilusion";
+			Title = "Illusion";
 			Text = "checking Version";
 			Duration = 0.50;
 		})
 		wait(2)
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Ilusion";
+			Title = "Illusion";
 			Text = "Loading The Script";
 			Duration = 1;
 		})
