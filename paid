@@ -42,26 +42,26 @@ writefile("AEV64x", "AGxB4WD%5")
 wait()
 
 game.StarterGui:SetCore("SendNotification", {
-			Title = "Ilusion";
+			Title = "Illusion";
 			Text = "checking Password";
 			Duration = 0.50;
 		})
 		wait(2)
 
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Ilusion";
+			Title = "Illusion";
 			Text = "checking UserId";
 			Duration = 0.50;
 		})
 		wait(2)
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Ilusion";
+			Title = "Illusion";
 			Text = "checking Version";
 			Duration = 0.50;
 		})
 		wait(2)
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Ilusion";
+			Title = "Illusion";
 			Text = "Loading The Script";
 			Duration = 1;
 		})
