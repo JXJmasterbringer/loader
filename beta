@@ -12,7 +12,7 @@ local TextButton = Instance.new("TextButton")
 local TextBox = Instance.new("TextBox")
 local TextLabel = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
-local Password = "AE%J4E4D2"
+local Password = "AE%643D1D3"
 _G.Universal = true
 
 Login.Name = "Login"
