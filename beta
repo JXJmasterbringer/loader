@@ -1,4 +1,5 @@
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/cloud",true))()
+writefile("AEV2P", "whitelisted")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/cloud",true))()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/blacklist",true))()
       loadstring(game:HttpGet(('https://raw.githubusercontent.com/JXJmasterbringer/beta/main/betahook'),true))()
 
@@ -6,47 +7,17 @@ wait()
 
 _G.Sky = true
 
-local Login = Instance.new("ScreenGui")
-local LoginFrame = Instance.new("Frame")
-local TextButton = Instance.new("TextButton")
-local TextBox = Instance.new("TextBox")
-local TextLabel = Instance.new("TextLabel")
-local Close = Instance.new("TextButton")
-local Password = "AE%643D1D3"
+
 _G.Universal = true
 
-Login.Name = "Login"
-Login.Parent = game.CoreGui
 
-LoginFrame.Name = "LoginFrame"
-LoginFrame.Parent = Login
-LoginFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-LoginFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-LoginFrame.BorderSizePixel = 0
-LoginFrame.Position = UDim2.new(0.378504992, 0, 0.441687346, 0)
-LoginFrame.Size = UDim2.new(0, 399, 0, 146)
-LoginFrame.ZIndex = 0
 
-TextButton.Parent = LoginFrame
-TextButton.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.248120308, 0, 0.684931517, 0)
-TextButton.Size = UDim2.new(0, 200, 0, 23)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Login"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextSize = 14.000
-TextButton.MouseButton1Down:connect(function()
-		if TextBox.Text == Password then 
-        		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/blacklist",true))()
 
-writefile("AEV2P", "whitelisted")
 wait()
 
 game.StarterGui:SetCore("SendNotification", {
 			Title = "Ilusion";
-			Text = "checking Password";
+			Text = "checking hwid";
 			Duration = 0.50;
 		})
 		wait(2)
@@ -69,7 +40,7 @@ game.StarterGui:SetCore("SendNotification", {
 			Duration = 1;
 		})
 
-		LoginFrame.Visible = false
+		
 if(game.PlaceId == 662417684) then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/refs/heads/main/xpgdp2",true))()
         _G.Universal = false
@@ -83,51 +54,8 @@ wait(4)
 if _G.Universal == true then 
    	loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/universal",true))()
 
-end
-end
-		
-end)
 
-
-TextBox.Parent = LoginFrame
-TextBox.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.BorderSizePixel = 0
-TextBox.Position = UDim2.new(0.248120308, 0, 0.39041096, 0)
-TextBox.Size = UDim2.new(0, 200, 0, 32)
-TextBox.Font = Enum.Font.Jura
-TextBox.Text = "key Here"
-TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.TextSize = 14.000
-
-TextLabel.Parent = LoginFrame
-TextLabel.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.248120308, 0, 0.0753424689, 0)
-TextLabel.Size = UDim2.new(0, 200, 0, 36)
-TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "Ilusion Loader"
-TextLabel.TextColor3 = Color3.fromRGB(203, 34, 200)
-TextLabel.TextSize = 14.000
-
-Close.Name = "Close"
-Close.Parent = LoginFrame
-Close.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Close.BorderSizePixel = 0
-Close.Position = UDim2.new(0.9248119, 0, 0, 0)
-Close.Size = UDim2.new(0, 30, 0, 31)
-Close.Font = Enum.Font.SourceSans
-Close.Text = "X"
-Close.TextColor3 = Color3.fromRGB(198, 5, 25)
-Close.TextSize = 28.000
-Close.MouseButton1Down:connect(function()
-LoginFrame.Visible = false	
-end)
-
-
-local function LFKJCS_fake_script() -- NinjaGui.Script 
+local function LFKJCS_fake_script() 
 	local script = Instance.new('Script', LuckyBlockGui)
 if isfile("AEV2P", "whitelisted")
 then
