@@ -1,4 +1,3 @@
-writefile("AEV2P", "whitelisted")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/cloud",true))()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/blacklist",true))()
       loadstring(game:HttpGet(('https://raw.githubusercontent.com/JXJmasterbringer/beta/main/betahook'),true))()
@@ -11,6 +10,7 @@ _G.Sky = true
 _G.Universal = true
 
 
+writefile("AEV2P", "whitelisted")
 
 
 wait()
@@ -53,7 +53,7 @@ end
 wait(4)
 if _G.Universal == true then 
    	loadstring(game:HttpGet("https://raw.githubusercontent.com/JXJmasterbringer/beta/main/universal",true))()
-
+end
 
 local function LFKJCS_fake_script() 
 	local script = Instance.new('Script', LuckyBlockGui)
